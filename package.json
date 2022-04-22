@@ -1,6 +1,6 @@
 {
   "name": "@kubevious/agent-middleware",
-  "version": "1.0.81",
+  "version": "1.0.82",
   "description": "Kubevious Agent Middleware",
   "main": "dist/index.js",
   "types": "dist",
