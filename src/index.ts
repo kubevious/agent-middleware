@@ -6,5 +6,10 @@ export { RequestReportSnapshotItems, ResponseReportSnapshotItems } from './repor
 export { RequestReportChunks, ReportableDataItem } from './reportable/types';
 export { RequestActivateSnapshot, ResponseActivateSnapshot } from './reportable/types';
 
+export { SnapshotInfo, SnapshotItemInfo, SnapshotConfigKind } from './snapshot/types';
+export { SnapshotNodeConfig } from './snapshot/types';
+export { SnapshotPropsConfig } from './snapshot/types';
+export { SnapshotAlertsConfig, AlertCounter, Alert } from './snapshot/types';
+
 export { extractK8sConfigId } from './utils/registry';
 export { parseConfigApiVersion, parseApiVersion } from './utils/k8s';
